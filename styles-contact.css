@@ -1,0 +1,212 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(232, 223, 213);
+  /*background-image: url("images/background.png");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+	
+	
+}
+
+
+.center {
+    width: 100%;
+    margin: 30px auto;
+	margin-bottom: 10px;
+ 	background-image: url("images/char2.png");
+	text-align: center;
+
+}
+
+#char2 {
+	fill-opacity: .5;
+}
+   
+#logo {
+    margin-bottom: 30px;
+	margin-top: 30px;
+	text-align: center;
+	background-color:rgb(255, 255, 255, 0.5);
+	padding: 20px;
+}
+h1{
+	font-family:'Franklin Gothic Medium';
+	font-size: 8em;
+	margin: 10px auto 0px;
+	color: rgb(162, 0, 0);
+	rotate: 90deg;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	
+}
+
+.bigwords {
+	width: 100%;
+	position: absolute;
+	top: 0%;
+	margin-top: 10px;
+	margin-left: 30px;
+
+}
+
+h2 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	 font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+	display: block;
+    margin-block-start: 3em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+	
+}
+
+section {
+	margin-top: 10px auto;
+	margin-left: 100px;
+	width: 1000;
+	text-align: center;
+}
+
+#char3 {
+	float: right;
+	margin-top: 0%;
+}
+
+.bodytext{
+	margin-top: 100px;
+	width: 50%
+
+}
+
+footer{
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.85);
+	margin-top: 2em;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+#logosmall {
+	float: left;
+	padding-left: 20px;
+	margin: 10px auto;
+}
+
+nav{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	width: 100%;
+	text-align: right;
+	bottom: 5px;
+
+}
+   
+nav li{
+	display: inline-block;
+
+
+}
+
+nav a{
+	display: inline-block;
+	padding: 20px;
+}
+
+a{
+	color: rgb(34, 34, 34);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: black;
+	background: rgb(255, 45, 45);
+}
