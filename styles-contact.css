@@ -136,7 +136,7 @@ p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.2em;
-    line-height: 1.6;
+    line-height: 2.5;
     color: rgb(0, 0, 0);
 	display: block;
     margin-block-start: 3em;
@@ -166,7 +166,7 @@ section {
 
 footer{
 	margin: 0 auto;
-	background: rgba(255, 255, 255, 0.85);
+	background: rgba(255, 255, 255, 0.90);
 	margin-top: 2em;
 	position: fixed;
 	left: 0;
